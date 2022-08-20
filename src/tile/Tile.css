@@ -1,0 +1,24 @@
+.tile {
+  background-color: #1b1b1c;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border: solid 5px #b1b1b3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2px;
+  padding: 0 10px;
+  flex-grow: 1;
+
+  
+}
+
+.tile:hover,
+  .tile:focus {
+    transform: scaleX(1.1) scaleY(1.1);
+    background: 
+    #0379a3
+    ;
+  }

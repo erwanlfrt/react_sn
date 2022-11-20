@@ -1,7 +1,7 @@
 import React from 'react';
 import './Strip.css';
 import Tile from '../tile/Tile';
-import { BoussoleSection } from 'boussole/react';
+import { CompassSection } from 'boussole/react';
 import { Configuration } from 'boussole';
 
 type Props = {
@@ -18,16 +18,14 @@ function Strip (props: Props) {
   return (
     <div className="strip-wrapper">
       <h1>{props.title}</h1>
-      <BoussoleSection id={props.snId} conf={props.conf}>
+      <CompassSection id={props.snId} conf={props.conf}>
         <div className="strip">
         {
           tiles.map((text, index) => <Tile content={text} customClass={index === 4 ? 'theDefaultOne': ''}></Tile>)
         }
       </div>
-      </BoussoleSection>
+      </CompassSection>
     </div>
-    
-    
   )
 }
 

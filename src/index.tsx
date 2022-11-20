@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { SpatialNavigation } from 'boussole/react';
+import { Compass } from 'boussole/react';
 
-SpatialNavigation.getInstance().init()
+Compass.getInstance().init()
 
 
 const root = ReactDOM.createRoot(

@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Compass } from 'boussole/react';
+import  { Boussole } from 'boussole/react';
 
-Compass.getInstance().init()
+Boussole.init()
 
 
 const root = ReactDOM.createRoot(

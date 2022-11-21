@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tile.css';
-import { CompassElement } from 'boussole/react';
+import { BoussoleElement } from 'boussole/react';
 
 
 interface Props {
@@ -10,11 +10,11 @@ interface Props {
 
 function Tile (props: Props) {
   return (
-    <CompassElement>
+    <BoussoleElement>
       <div className={props.customClass + ' tile'} >
         {props.content}
       </div>
-    </CompassElement>
+    </BoussoleElement>
   )
 }
 

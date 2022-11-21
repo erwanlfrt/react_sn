@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Strip from './strip/Strip';
 import { Configuration } from 'boussole';
-// import { CompassElement, CompassSection } from 'boussole/react';
+// import { BoussoleElement, BoussoleSection } from 'boussole/react';
 
 class App extends React.Component {
 
